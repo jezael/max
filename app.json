@@ -1,0 +1,16 @@
+{
+  "name": "Go Sessions Sample",
+  "description": "A barebones Go demo for sessions",
+  "repository": "https://github.com/heroku-examples/go-sessions-demo",
+  "keywords": ["golang", "gorilla", "negroni"],
+  "env": {
+    "SESSION_AUTHENTICATION_KEY": {
+      "description":"",
+      "generator":"secret"
+    },
+    "SESSION_ENCRYPTION_KEY": {
+      "description":"",
+      "generator":"secret"
+    }
+  }
+}
